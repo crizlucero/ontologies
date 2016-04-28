@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#"
+     xml:base="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#en_articulo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#en_articulo">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#en_fraccion"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Para_los_efectos"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Articulo_29-A"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#en_fraccion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#en_fraccion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Articulo_29-A"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Fraccion_IV"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#en_parrafo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#en_parrafo">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#en_fraccion"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Fraccion_IV"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Segundo_Parrafo_CFF"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#no_se_cuente -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#no_se_cuente">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#en_articulo"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Para_los_efectos"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Clave_en_RFC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#no_se_encuentran -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#no_se_encuentran">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Residentes_en_Extranjero"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Inscritos_en_el_RFC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#operaciones_efectuadas_con -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#operaciones_efectuadas_con">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#se_consignara"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Para_los_efectos"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Residentes_en_Extranjero"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#se_consignara -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#se_consignara">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Clave_en_RFC"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Clave_Generica_RFC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#se_señalara -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#se_señalara">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#no_se_encuentran"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Inscritos_en_el_RFC"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Clave_Generica_RFC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Articulo_29-A -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Articulo_29-A"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Clave_Generica_RFC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Clave_Generica_RFC"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Clave_en_RFC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Clave_en_RFC"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Fraccion_IV -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Fraccion_IV"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Inscritos_en_el_RFC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Inscritos_en_el_RFC"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Para_los_efectos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Para_los_efectos"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Residentes_en_Extranjero -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Residentes_en_Extranjero"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Segundo_Parrafo_CFF -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alfredo/ontologies/2016/3/2.7.1.25#Segundo_Parrafo_CFF"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+

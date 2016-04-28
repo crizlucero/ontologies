@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#"
+     xml:base="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Identificaran_las -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Identificaran_las">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Cantidades"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Complemento"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Identificaran_las_occ -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Identificaran_las_occ">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Complemento"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Otros_cargos_o_Cobros"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#carguen_al_adquiriente_de_dichos -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#carguen_al_adquiriente_de_dichos">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Cantidades"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Servicios_de_Transporte"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#cobren_al_adquiriente_de_dichos -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#cobren_al_adquiriente_de_dichos">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Cantidades"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Servicios_de_Transporte"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#con_los_que_tenga -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#con_los_que_tenga">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Cuenta_de_Terceros"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Relacion_juridica"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#deberan_utilizar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#deberan_utilizar">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Complemento"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Prestadores_de_Servicios"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#en_su -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#en_su">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Pagina_de_Internet"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#SAT"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#esten_integradas_por -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#esten_integradas_por"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#incluyendo_para_tales_efectos -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#incluyendo_para_tales_efectos">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Complemento"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Identificacion_del_Tercero"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#mediante_el_uso -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#mediante_el_uso">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Codigo_IATA"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Identificacion_del_Tercero"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#que_al_efecto_publique_el -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#que_al_efecto_publique_el">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Complemento"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#SAT"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#y_que_no_sean_atribuibles_como -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#y_que_no_sean_atribuibles_como"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Cantidades -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Cantidades"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Cobradas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Cobradas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Cantidades"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Codigo_IATA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Codigo_IATA"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Complemento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Complemento"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Contribuciones_Federales -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Contribuciones_Federales"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Cuenta_de_Terceros -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Cuenta_de_Terceros"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Identificacion_del_Tercero -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Identificacion_del_Tercero"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Ingresos_al_Transportista -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Ingresos_al_Transportista"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Otros_cargos_o_Cobros -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Otros_cargos_o_Cobros"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Pagina_de_Internet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Pagina_de_Internet"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Prestadores_de_Servicios -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Prestadores_de_Servicios"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Relacion_juridica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Relacion_juridica"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#SAT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#SAT"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Servicios_de_Transporte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.24#Servicios_de_Transporte"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

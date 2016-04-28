@@ -1,0 +1,346 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#"
+     xml:base="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#deben_conservar_c -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#deben_conservar_c">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Contrato"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Contribuyentes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#deben_conservar_cd -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#deben_conservar_cd">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Contribuyentes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Copia_del_Documento"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#deben_conservar_cio -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#deben_conservar_cio">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Contribuyentes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Copia_Identificacion_oficial"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#deben_conservar_com -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#deben_conservar_com">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Complemento"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Contribuyentes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#el -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#el">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Complemento"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Vehiculos_Nuevos_a_Personas_Fisicas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#en_c -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#en_c">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Capitulo"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Titulo"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#en_s -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#en_s">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Capitulo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Seccion"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#en_su -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#en_su">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Pagina_Internet"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#SAT"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#en_t -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#en_t">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Ley_del_ISR"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Titulo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#incorporaran -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#incorporaran">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#CFDI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Contribuyentes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#que_enajenan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#que_enajenan">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Contribuyentes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Vehiculos_Nuevos_a_Personas_Fisicas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#que_expidan_por_la_enajenacion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#que_expidan_por_la_enajenacion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#CFDI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Vehiculos_Nuevos_a_Personas_Fisicas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#que_no_tributen_en_terminos -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#que_no_tributen_en_terminos">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Ley_del_ISR"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Vehiculos_Nuevos_a_Personas_Fisicas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#que_para_tal_efecto_publique -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#que_para_tal_efecto_publique">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Complemento"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#SAT"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#tipo_cfdi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#tipo_cfdi">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#CFDI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Comprobante"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#tipo_fd -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#tipo_fd">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#fiscal_digital"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#tipo_fp -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#tipo_fp">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#fiscal_en_papel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#y -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#y">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Contribuyentes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Seccion"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#y_que_reciban_como_pago_resultado_de_esa_enajenacion_un_d -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#y_que_reciban_como_pago_resultado_de_esa_enajenacion_un_d">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Contribuyentes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Vehiculo_Usado"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#y_que_reciban_como_pago_resultado_de_esa_enajenacion_un_vu -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#y_que_reciban_como_pago_resultado_de_esa_enajenacion_un_vu">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Contribuyentes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Dinero"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#y_vu -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#y_vu">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Dinero"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Vehiculo_Usado"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#CFDI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#CFDI"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Capitulo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Capitulo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Complemento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Complemento"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Comprobante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Comprobante"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Contrato -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Contrato"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Contribuyentes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Contribuyentes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Copia_Identificacion_oficial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Copia_Identificacion_oficial"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Copia_del_Documento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Copia_del_Documento"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Dinero -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Dinero"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Ley_del_ISR -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Ley_del_ISR"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Pagina_Internet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Pagina_Internet"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#SAT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#SAT"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Seccion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Seccion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Titulo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Titulo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Vehiculo_Usado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Vehiculo_Usado"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Vehiculos_Nuevos_a_Personas_Fisicas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#Vehiculos_Nuevos_a_Personas_Fisicas"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#fiscal_digital -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#fiscal_digital"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#fiscal_en_papel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fredy/ontologies/2016/3/2.7.1.11#fiscal_en_papel"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
