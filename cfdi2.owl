@@ -1,0 +1,616 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#"
+     xml:base="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35">
+        <rdfs:comment>This ontology was created from a cfdi 3</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#expedido_en -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#expedido_en">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Emisor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Domicilio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#tiene_complemento -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#tiene_complemento">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Complemento"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#tiene_concepto -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#tiene_concepto">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Conceptos"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Concepto"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#tiene_conceptos -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#tiene_conceptos">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Conceptos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#tiene_domicilio -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#tiene_domicilio">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Receptor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Domicilio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#tiene_domicilio_fiscal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#tiene_domicilio_fiscal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Emisor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Domicilio_Fiscal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#tiene_emisor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#tiene_emisor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Emisor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#tiene_impuesto -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#tiene_impuesto">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Impuestos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#tiene_impuestos -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#tiene_impuestos">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Impuestos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#tiene_receptor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#tiene_receptor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Receptor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#tiene_timbreFiscalDigital -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#tiene_timbreFiscalDigital">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Complemento"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Timbre_Fiscal_Digital"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#tiene_traslado -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#tiene_traslado">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Impuestos"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Traslados"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Calle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Calle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Direccion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Cantidad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Cantidad">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Concepto"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Codigo_Postal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Codigo_Postal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Direccion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Colonia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Colonia">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Direccion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Descripcion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Descripcion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Concepto"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Estado -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Estado">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Direccion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#FechaTimbrado -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#FechaTimbrado">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Timbre_Fiscal_Digital"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Importe -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Importe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Concepto"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Traslados"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Impuesto -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Impuesto">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Traslados"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Municipio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Municipio">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Direccion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Numero_Certificado_SAT -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Numero_Certificado_SAT">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Timbre_Fiscal_Digital"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Numero_Exterior -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Numero_Exterior">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Direccion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Numero_Interior -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Numero_Interior">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Domicilio_Fiscal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Pais -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Pais">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Direccion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#SelloSAT -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#SelloSAT">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Timbre_Fiscal_Digital"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Tasa -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Tasa">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Traslados"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#UUID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#UUID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Timbre_Fiscal_Digital"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Unidad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Unidad">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Concepto"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Valor_Unitario -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Valor_Unitario">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Concepto"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Version -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Version">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Timbre_Fiscal_Digital"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#selloCFD -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#selloCFD">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Timbre_Fiscal_Digital"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Complemento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Complemento"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Comprobante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Comprobante"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Concepto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Concepto"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Conceptos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Conceptos"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Direccion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Direccion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Domicilio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Domicilio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Direccion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Domicilio_Fiscal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Domicilio_Fiscal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Direccion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Emisor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Emisor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Impuestos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Impuestos"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Receptor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Receptor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Timbre_Fiscal_Digital -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Timbre_Fiscal_Digital"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Traslados -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Traslados"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Comprobante"/>
+        <tiene_complemento rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Complemento"/>
+        <tiene_conceptos rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_conceptos"/>
+        <tiene_emisor rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Emisor"/>
+        <tiene_impuestos rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Impuestos"/>
+        <tiene_receptor rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Receptor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Complemento -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Complemento">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Complemento"/>
+        <tiene_timbreFiscalDigital rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Timbre_Fiscal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Concepto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Concepto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Concepto"/>
+        <Cantidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</Cantidad>
+        <Descripcion>VIBRAMICINA 100MG 10</Descripcion>
+        <Importe rdf:datatype="http://www.w3.org/2001/XMLSchema#string">244.0</Importe>
+        <Unidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAPSULAS</Unidad>
+        <Valor_Unitario rdf:datatype="http://www.w3.org/2001/XMLSchema#string">244.0</Valor_Unitario>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Domicilio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Domicilio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Domicilio"/>
+        <Calle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV. UNIVERSIDAD</Calle>
+        <Codigo_Postal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">04360</Codigo_Postal>
+        <Colonia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COPILCO UNIVERSIDAD</Colonia>
+        <Estado rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DISTRITO FEDERAL</Estado>
+        <Municipio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COYOACAN</Municipio>
+        <Numero_Exterior rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16 EDF 3</Numero_Exterior>
+        <Numero_Interior rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPTO 101</Numero_Interior>
+        <Pais rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mexico</Pais>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Domicilio_Fiscal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Domicilio_Fiscal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Domicilio_Fiscal"/>
+        <Calle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV. RIO MIXCOAC</Calle>
+        <Codigo_Postal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03240</Codigo_Postal>
+        <Colonia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACACIAS</Colonia>
+        <Estado rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEXICO, D.F.</Estado>
+        <Municipio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BENITO JUAREZ</Municipio>
+        <Numero_Exterior rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No. 140</Numero_Exterior>
+        <Pais rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mexico</Pais>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Emisor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Emisor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Emisor"/>
+        <expedido_en rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Expedido_En"/>
+        <tiene_domicilio_fiscal rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Domicilio_Fiscal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Expedido_En -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Expedido_En">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Domicilio_Fiscal"/>
+        <Calle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV. UNIVERSIDAD</Calle>
+        <Codigo_Postal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03910</Codigo_Postal>
+        <Colonia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OXTOPULCO</Colonia>
+        <Estado rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DISTRITO FEDERAL</Estado>
+        <Numero_Exterior rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1858</Numero_Exterior>
+        <Pais rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mexico</Pais>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Impuestos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Impuestos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Impuestos"/>
+        <tiene_traslado rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Traslado"/>
+        <tiene_traslado rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#02_Traslado"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Receptor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Receptor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Receptor"/>
+        <tiene_domicilio rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Domicilio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Timbre_Fiscal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Timbre_Fiscal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Timbre_Fiscal_Digital"/>
+        <FechaTimbrado rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-06T20:40:10</FechaTimbrado>
+        <Numero_Certificado_SAT rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30001000000100000801</Numero_Certificado_SAT>
+        <SelloSAT rdf:datatype="http://www.w3.org/2001/XMLSchema#string">j5bSpqM3w0+shGtImqOwqqy6+d659O78ckfstu5vTSFa+2CVMj6Awfr18x4yMLGBwk6ruYbjBlVURodEIl6nJIhTTUtYQV1cbRDG9kvvhaNAakxqaSOnOx79nHxqFPRVoqh10CsjocS9PZkSM2jz1uwLgaF0knf1g8pjDkLYwlk=</SelloSAT>
+        <UUID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ad662d33-6934-459c-a128-bdf0393e0f44</UUID>
+        <Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</Version>
+        <selloCFD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tOSe+Ex/wvn33YlGwtfmrJwQ31Crd7lI9VcH63TGjHfxk5vfb3q9uSbDUGk9TXvo70ydOpikRVw+9B2Six0mbu3PjoPpO909oAYITrRyomdeUGJ4vmA2/12L86EJLWpU7vIt4cL8HpkEw7TOFhSdpzb/890+jP+C1adBsHU1VHc=</selloCFD>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Traslado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Traslado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Traslados"/>
+        <Importe rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0</Importe>
+        <Impuesto rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IVA</Impuesto>
+        <Tasa rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0</Tasa>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_conceptos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_conceptos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Conceptos"/>
+        <tiene_concepto rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#01_Concepto"/>
+        <tiene_concepto rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#02_Concepto"/>
+        <tiene_concepto rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#03_Concepto"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#02_Concepto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#02_Concepto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Concepto"/>
+        <Cantidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</Cantidad>
+        <Descripcion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLORUTO 500M</Descripcion>
+        <Importe rdf:datatype="http://www.w3.org/2001/XMLSchema#string">137.93</Importe>
+        <Unidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOTELLA</Unidad>
+        <Valor_Unitario rdf:datatype="http://www.w3.org/2001/XMLSchema#string">137.93</Valor_Unitario>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#02_Traslado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#02_Traslado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Traslados"/>
+        <Importe rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22.07</Importe>
+        <Impuesto rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IVA</Impuesto>
+        <Tasa rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Tasa>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#03_Concepto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#03_Concepto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2015/11/untitled-ontology-35#Concepto"/>
+        <Cantidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</Cantidad>
+        <Descripcion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEDEPRON 250MG 10</Descripcion>
+        <Importe rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84.5</Importe>
+        <Unidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TABLETAS</Unidad>
+        <Valor_Unitario rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84.5</Valor_Unitario>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.1.20160306-0033) https://github.com/owlcs/owlapi -->
+
