@@ -1,0 +1,561 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#"
+     xml:base="http://www.semanticweb.org/root/ontologies/2016/2/knowitive"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#has_options -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#has_options">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Services"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Options"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#has_profile -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#has_profile">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Group"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Profile"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#has_results -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#has_results">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Services"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Results"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#has_services_p -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#has_services_p">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Provider"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Services"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#has_services_u -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#has_services_u">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Services"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#has_sources -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#has_sources">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Services"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Sources"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#has_types -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#has_types">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Services"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#has_users_g -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#has_users_g">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Group"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#has_users_p -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#has_users_p">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Profile"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#is_type_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#is_type_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Type"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Group_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Group_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Group"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Options_Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Options_Name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Options"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Options_Value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Options_Value">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Options"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Profile_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Profile_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Profile"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Provider_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Provider_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Provider"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Services"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Provider_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Provider_type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Provider"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Result_output -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Result_output">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Results"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Result_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Result_type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Results"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Service_Implementation_info -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Service_Implementation_info">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Services"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Service_description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Service_description">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Services"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Service_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Service_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Services"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Service_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Service_type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Services"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Source_input -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Source_input">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Sources"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Types_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Types_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Type"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#User_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#User_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#User_password -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#User_password">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Group -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Group"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Options -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Options"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Profile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Profile"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Provider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Provider"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Results -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Results"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Services -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Services"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Sources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Sources"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#User"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#O_01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#O_01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Options"/>
+        <Options_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oracle</Options_Name>
+        <Options_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</Options_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#P_01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#P_01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Provider"/>
+        <has_services_p rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Se_01"/>
+        <Provider_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oracle</Provider_name>
+        <Provider_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Storage</Provider_type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#P_02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#P_02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Provider"/>
+        <Provider_name>Virtuoso</Provider_name>
+        <Provider_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Storage</Provider_type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#R_01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#R_01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Results"/>
+        <Result_output rdf:datatype="http://www.w3.org/2001/XMLSchema#string">String</Result_output>
+        <Result_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Json</Result_type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#S_01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#S_01"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#S_02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#S_02"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#S_03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#S_03"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Se_01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Se_01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Services"/>
+        <has_types rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#T_01"/>
+        <Service_Implementation_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oracle 8</Service_Implementation_info>
+        <Service_description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Service to execute query</Service_description>
+        <Service_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">execute query</Service_name>
+        <Service_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">na</Service_type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Se_02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Se_02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Services"/>
+        <has_types rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#T_02"/>
+        <Service_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analyze Graph 1</Service_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Se_03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Se_03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Services"/>
+        <has_types rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#T_02"/>
+        <Service_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analyze Graph 2</Service_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Se_04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Se_04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Services"/>
+        <has_types rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#T_03"/>
+        <Service_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type 1</Service_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Se_05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Se_05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Services"/>
+        <has_types rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#T_03"/>
+        <Service_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type 2</Service_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Se_06 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Se_06">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Services"/>
+        <has_types rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#T_05"/>
+        <Service_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AnalyzeGraph</Service_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#So_01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#So_01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Sources"/>
+        <Source_input rdf:datatype="http://www.w3.org/2001/XMLSchema#string">String</Source_input>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#T_01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#T_01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Type"/>
+        <Types_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ontological Queries</Types_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#T_02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#T_02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Type"/>
+        <Types_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analyze</Types_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#T_03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#T_03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Type"/>
+        <Types_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analyze Graph 1</Types_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#T_04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#T_04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Type"/>
+        <Types_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parser</Types_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#T_05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#T_05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Type"/>
+        <is_type_of rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#T_04"/>
+        <Types_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analize 1</Types_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#T_06 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#T_06">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Type"/>
+        <is_type_of rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#T_05"/>
+        <Types_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analyze A</Types_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#U_01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#U_01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#User"/>
+        <has_services_u rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Se_01"/>
+        <has_services_u rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Se_02"/>
+        <has_services_u rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Se_03"/>
+        <has_services_u rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Se_04"/>
+        <has_services_u rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Se_05"/>
+        <User_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contpaqi</User_name>
+        <User_password rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123456</User_password>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2016/2/knowitive#U_02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#U_02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#User"/>
+        <has_services_u rdf:resource="http://www.semanticweb.org/root/ontologies/2016/2/knowitive#Se_06"/>
+        <User_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iteso</User_name>
+        <User_password rdf:datatype="http://www.w3.org/2001/XMLSchema#string">54321</User_password>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+
