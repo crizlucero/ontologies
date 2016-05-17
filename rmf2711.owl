@@ -1,0 +1,166 @@
+  <?xml version="1.0"?>
+<rdf:RDF xmlns="http://knowitive.com/ontologies/2016/5/rmf2711#"
+     xml:base="http://knowitive.com/ontologies/2016/5/rmf2711"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://knowitive.com/ontologies/2016/5/rmf2711"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowitive.com/ontologies/2016/5/rmf2711#has -->
+
+    <owl:ObjectProperty rdf:about="http://knowitive.com/ontologies/2016/5/rmf2711#has">
+        <rdfs:domain rdf:resource="http://knowitive.com/ontologies/2016/5/rmf2711#Cfdi"/>
+        <rdfs:range rdf:resource="http://knowitive.com/ontologies/2016/5/rmf2711#Electronic_format"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowitive.com/ontologies/2016/5/rmf2711#issue -->
+
+    <owl:ObjectProperty rdf:about="http://knowitive.com/ontologies/2016/5/rmf2711#issue">
+        <rdfs:domain rdf:resource="http://knowitive.com/ontologies/2016/5/rmf2711#Taxpayers"/>
+        <rdfs:range rdf:resource="http://knowitive.com/ontologies/2016/5/rmf2711#Cfdi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowitive.com/ontologies/2016/5/rmf2711#receive -->
+
+    <owl:ObjectProperty rdf:about="http://knowitive.com/ontologies/2016/5/rmf2711#receive">
+        <rdfs:domain rdf:resource="http://knowitive.com/ontologies/2016/5/rmf2711#Taxpayers"/>
+        <rdfs:range rdf:resource="http://knowitive.com/ontologies/2016/5/rmf2711#Cfdi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowitive.com/ontologies/2016/5/rmf2711#stored -->
+
+    <owl:ObjectProperty rdf:about="http://knowitive.com/ontologies/2016/5/rmf2711#stored">
+        <rdfs:domain rdf:resource="http://knowitive.com/ontologies/2016/5/rmf2711#Cfdi"/>
+        <rdfs:range rdf:resource="http://knowitive.com/ontologies/2016/5/rmf2711#Media"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowitive.com/ontologies/2016/5/rmf2711#Cfdi -->
+
+    <owl:Class rdf:about="http://knowitive.com/ontologies/2016/5/rmf2711#Cfdi">
+        <rdfs:subClassOf rdf:resource="http://knowitive.com/ontologies/2016/5/rmf2711#Magnetic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://knowitive.com/ontologies/2016/5/rmf2711#Electronic_format -->
+
+    <owl:Class rdf:about="http://knowitive.com/ontologies/2016/5/rmf2711#Electronic_format"/>
+    
+
+
+    <!-- http://knowitive.com/ontologies/2016/5/rmf2711#Magnetic -->
+
+    <owl:Class rdf:about="http://knowitive.com/ontologies/2016/5/rmf2711#Magnetic">
+        <rdfs:subClassOf rdf:resource="http://knowitive.com/ontologies/2016/5/rmf2711#Media"/>
+        <owl:disjointWith rdf:resource="http://knowitive.com/ontologies/2016/5/rmf2711#Optical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://knowitive.com/ontologies/2016/5/rmf2711#Media -->
+
+    <owl:Class rdf:about="http://knowitive.com/ontologies/2016/5/rmf2711#Media"/>
+    
+
+
+    <!-- http://knowitive.com/ontologies/2016/5/rmf2711#Optical -->
+
+    <owl:Class rdf:about="http://knowitive.com/ontologies/2016/5/rmf2711#Optical">
+        <rdfs:subClassOf rdf:resource="http://knowitive.com/ontologies/2016/5/rmf2711#Media"/>
+        <owl:disjointWith rdf:resource="http://knowitive.com/ontologies/2016/5/rmf2711#Photochemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://knowitive.com/ontologies/2016/5/rmf2711#Paragraph -->
+
+    <owl:Class rdf:about="http://knowitive.com/ontologies/2016/5/rmf2711#Paragraph"/>
+    
+
+
+    <!-- http://knowitive.com/ontologies/2016/5/rmf2711#Photochemistry -->
+
+    <owl:Class rdf:about="http://knowitive.com/ontologies/2016/5/rmf2711#Photochemistry">
+        <rdfs:subClassOf rdf:resource="http://knowitive.com/ontologies/2016/5/rmf2711#Media"/>
+    </owl:Class>
+    
+
+
+    <!-- http://knowitive.com/ontologies/2016/5/rmf2711#Taxpayers -->
+
+    <owl:Class rdf:about="http://knowitive.com/ontologies/2016/5/rmf2711#Taxpayers"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowitive.com/ontologies/2016/5/rmf2711#CD-rom -->
+
+    <owl:NamedIndividual rdf:about="http://knowitive.com/ontologies/2016/5/rmf2711#CD-rom">
+        <rdf:type rdf:resource="http://knowitive.com/ontologies/2016/5/rmf2711#Optical"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowitive.com/ontologies/2016/5/rmf2711#XML -->
+
+    <owl:NamedIndividual rdf:about="http://knowitive.com/ontologies/2016/5/rmf2711#XML">
+        <rdf:type rdf:resource="http://knowitive.com/ontologies/2016/5/rmf2711#Electronic_format"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowitive.com/ontologies/2016/5/rmf2711#2.7.1.1 -->
+
+    <owl:NamedIndividual rdf:about="http://knowitive.com/ontologies/2016/5/rmf2711#2.7.1.1">
+        <rdf:type rdf:resource="http://knowitive.com/ontologies/2016/5/rmf2711#Paragraph"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.1.20160306-0033) https://github.com/owlcs/owlapi -->
+
