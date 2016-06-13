@@ -1,0 +1,830 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://knowitive.com/ontologies"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://knowitive.com/ontologies">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#SURL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SSampleToUse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#type_Storages"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Healthy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Providers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Healthy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#11_Service"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Services"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#01_Parser"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parsers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#07_Service"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Healthy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#03_Service"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#type_Parsers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Method"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#URL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Authentication"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SURL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reasoners"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SURL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#10_Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#URL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Services"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#type_Reasoners"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Services"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#02_Parser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#06_Service"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#01_Storage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#02_Service"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#URL"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Storages"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_URL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Method"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#01_Reasoners"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Services"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#05_Service"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Providers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#01_Service"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#13_Service"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#type_Authentication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SSampleToUse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#09_Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parsers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#01_Authentication"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#08_Service"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#04_Service"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#12_Service"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Healthy"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Authentication"/>
+        <Class IRI="#Providers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Description"/>
+        <Class IRI="#Providers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Healthy"/>
+        <Class IRI="#Providers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Method"/>
+        <Class IRI="#SURL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Name"/>
+        <Class IRI="#Providers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parsers"/>
+        <Class IRI="#Providers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reasoners"/>
+        <Class IRI="#Providers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SDescription"/>
+        <Class IRI="#Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SName"/>
+        <Class IRI="#Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SSampleToUse"/>
+        <Class IRI="#Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SURL"/>
+        <Class IRI="#Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Services"/>
+        <Class IRI="#Providers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storages"/>
+        <Class IRI="#Providers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#URL"/>
+        <Class IRI="#Providers"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Authentication"/>
+        <NamedIndividual IRI="#01_Authentication"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parsers"/>
+        <NamedIndividual IRI="#01_Parser"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reasoners"/>
+        <NamedIndividual IRI="#01_Reasoners"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Services"/>
+        <NamedIndividual IRI="#01_Service"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Storages"/>
+        <NamedIndividual IRI="#01_Storage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parsers"/>
+        <NamedIndividual IRI="#02_Parser"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Services"/>
+        <NamedIndividual IRI="#02_Service"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Services"/>
+        <NamedIndividual IRI="#03_Service"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Services"/>
+        <NamedIndividual IRI="#04_Service"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Services"/>
+        <NamedIndividual IRI="#05_Service"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Services"/>
+        <NamedIndividual IRI="#06_Service"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Services"/>
+        <NamedIndividual IRI="#07_Service"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Services"/>
+        <NamedIndividual IRI="#08_Service"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Services"/>
+        <NamedIndividual IRI="#09_Service"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Services"/>
+        <NamedIndividual IRI="#10_Service"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Services"/>
+        <NamedIndividual IRI="#11_Service"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Services"/>
+        <NamedIndividual IRI="#12_Service"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Services"/>
+        <NamedIndividual IRI="#13_Service"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Services"/>
+        <NamedIndividual IRI="#01_Service"/>
+        <NamedIndividual IRI="#01_Parser"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Services"/>
+        <NamedIndividual IRI="#02_Service"/>
+        <NamedIndividual IRI="#01_Parser"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Services"/>
+        <NamedIndividual IRI="#03_Service"/>
+        <NamedIndividual IRI="#01_Parser"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Services"/>
+        <NamedIndividual IRI="#04_Service"/>
+        <NamedIndividual IRI="#01_Parser"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Services"/>
+        <NamedIndividual IRI="#05_Service"/>
+        <NamedIndividual IRI="#01_Parser"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Services"/>
+        <NamedIndividual IRI="#06_Service"/>
+        <NamedIndividual IRI="#02_Parser"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Services"/>
+        <NamedIndividual IRI="#07_Service"/>
+        <NamedIndividual IRI="#02_Parser"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#type_Storages"/>
+        <NamedIndividual IRI="#08_Service"/>
+        <NamedIndividual IRI="#01_Storage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Services"/>
+        <NamedIndividual IRI="#09_Service"/>
+        <NamedIndividual IRI="#01_Reasoners"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Services"/>
+        <NamedIndividual IRI="#10_Service"/>
+        <NamedIndividual IRI="#01_Reasoners"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Services"/>
+        <NamedIndividual IRI="#11_Service"/>
+        <NamedIndividual IRI="#01_Authentication"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Services"/>
+        <NamedIndividual IRI="#12_Service"/>
+        <NamedIndividual IRI="#01_Authentication"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Services"/>
+        <NamedIndividual IRI="#13_Service"/>
+        <NamedIndividual IRI="#01_Authentication"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#01_Authentication"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Set the access control from the application login</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#01_Authentication"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Access Control Server</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#URL"/>
+        <NamedIndividual IRI="#01_Authentication"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://storage.knowitive.com/AccessControlServer/r/accesscontrol/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#01_Parser"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Knowitive parser</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#01_Parser"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Parser</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#URL"/>
+        <NamedIndividual IRI="#01_Parser"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://parser.knowitive.com/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#01_Reasoners"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Service for make questions</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#01_Reasoners"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Question and Answer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#URL"/>
+        <NamedIndividual IRI="#01_Reasoners"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://qa.knowitive.com:4567/q</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Method"/>
+        <NamedIndividual IRI="#01_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">POST</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SDescription"/>
+        <NamedIndividual IRI="#01_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Get the paragraph from the document</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SName"/>
+        <NamedIndividual IRI="#01_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Paragraph</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SURL"/>
+        <NamedIndividual IRI="#01_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://parser.knowitive.com/parser/r/GrammarParse.paragraph/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#01_Storage"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Knowitives&apos; Storage</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#01_Storage"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Knowivite Storage</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#URL"/>
+        <NamedIndividual IRI="#01_Storage"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://storage.knowitive.com/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#02_Parser"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">NLP Framework</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#02_Parser"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Freeling</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#URL"/>
+        <NamedIndividual IRI="#02_Parser"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://freeling.knowitive.com/freeling/r/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Method"/>
+        <NamedIndividual IRI="#02_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">POST</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SDescription"/>
+        <NamedIndividual IRI="#02_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Get the type of the document.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SName"/>
+        <NamedIndividual IRI="#02_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Source Detection</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SURL"/>
+        <NamedIndividual IRI="#02_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://parser.knowitive.com/parser/r/GrammarParse.sourcedetection/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Method"/>
+        <NamedIndividual IRI="#03_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">POST</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SDescription"/>
+        <NamedIndividual IRI="#03_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Get the triplets from the document</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SName"/>
+        <NamedIndividual IRI="#03_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Triplets</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SURL"/>
+        <NamedIndividual IRI="#03_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://parser.knowitive.com/tripleter/r/getTriplets/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Method"/>
+        <NamedIndividual IRI="#04_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">POST</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SDescription"/>
+        <NamedIndividual IRI="#04_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Transform a XML file to a RDF file</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SName"/>
+        <NamedIndividual IRI="#04_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">XML to RDF</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SURL"/>
+        <NamedIndividual IRI="#04_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://parser.knowitive.com/Redefer/r/transform/xml2rdf</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Method"/>
+        <NamedIndividual IRI="#05_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">POST</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SDescription"/>
+        <NamedIndividual IRI="#05_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Transform a XSD file to an OWL file</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SName"/>
+        <NamedIndividual IRI="#05_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">XSD to OWL</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SURL"/>
+        <NamedIndividual IRI="#05_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://parser.knowitive.com/Redefer/r/transform/xsd2owl</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Method"/>
+        <NamedIndividual IRI="#06_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">POST</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SDescription"/>
+        <NamedIndividual IRI="#06_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Analyze the phrase</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SName"/>
+        <NamedIndividual IRI="#06_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Analyze Tagger</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SURL"/>
+        <NamedIndividual IRI="#06_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://freeling.knowitive.com/freeling/r/GrammarParse.analyzetagger/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Method"/>
+        <NamedIndividual IRI="#07_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">POST</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SDescription"/>
+        <NamedIndividual IRI="#07_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Set color to the words.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SName"/>
+        <NamedIndividual IRI="#07_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Analyze Tagger Color</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SURL"/>
+        <NamedIndividual IRI="#07_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://freeling.knowitive.com/freeling/r/GrammarParse.analyzetaggercolor/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Method"/>
+        <NamedIndividual IRI="#08_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">POST</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SDescription"/>
+        <NamedIndividual IRI="#08_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Storage the ontologies</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SName"/>
+        <NamedIndividual IRI="#08_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Fuseki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SURL"/>
+        <NamedIndividual IRI="#08_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://storage.knowitive.com/fuseki/skosmos/query</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Method"/>
+        <NamedIndividual IRI="#09_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">POST</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SDescription"/>
+        <NamedIndividual IRI="#09_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ask if have the answer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SName"/>
+        <NamedIndividual IRI="#09_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Answered</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SURL"/>
+        <NamedIndividual IRI="#09_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://qa.knowitive.com:4567/q/?answered</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Method"/>
+        <NamedIndividual IRI="#10_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">POST</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SDescription"/>
+        <NamedIndividual IRI="#10_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Check the status of the question</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SName"/>
+        <NamedIndividual IRI="#10_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">In progress</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SURL"/>
+        <NamedIndividual IRI="#10_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://qa.knowitive.com:4567/q/?inProgress</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Method"/>
+        <NamedIndividual IRI="#11_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">GET</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SDescription"/>
+        <NamedIndividual IRI="#11_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Get a token for the session</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SName"/>
+        <NamedIndividual IRI="#11_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Token Generator</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SURL"/>
+        <NamedIndividual IRI="#11_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://storage.knowitive.com/AccessControlServer/r/accesscontrol/generate/&quot;user&quot;/&quot;password&quot;/demoapp/21/1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Method"/>
+        <NamedIndividual IRI="#12_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">GET</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SDescription"/>
+        <NamedIndividual IRI="#12_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Get the token valiation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SName"/>
+        <NamedIndividual IRI="#12_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Validate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SURL"/>
+        <NamedIndividual IRI="#12_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://storage.knowitive.com/AccessControlServer/r/accesscontrol/validate/&quot;token&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Method"/>
+        <NamedIndividual IRI="#13_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">GET</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SDescription"/>
+        <NamedIndividual IRI="#13_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Get the information from the token</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SName"/>
+        <NamedIndividual IRI="#13_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Get Information</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SURL"/>
+        <NamedIndividual IRI="#13_Service"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://storage.knowitive.com/AccessControlServer/r/accesscontrol/getinfo/&quot;token&quot;</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Description"/>
+        <Class IRI="#Providers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Healthy"/>
+        <Class IRI="#Providers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Method"/>
+        <Class IRI="#SURL"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Name"/>
+        <Class IRI="#Providers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Services"/>
+        <Class IRI="#Providers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_URL"/>
+        <Class IRI="#Providers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#type_Authentication"/>
+        <Class IRI="#Providers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#type_Parsers"/>
+        <Class IRI="#Providers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#type_Reasoners"/>
+        <Class IRI="#Providers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#type_Storages"/>
+        <Class IRI="#Providers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Description"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Healthy"/>
+        <Class IRI="#Healthy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Method"/>
+        <Class IRI="#Method"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Name"/>
+        <Class IRI="#Name"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Services"/>
+        <Class IRI="#Services"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_URL"/>
+        <Class IRI="#URL"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#type_Authentication"/>
+        <Class IRI="#Authentication"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#type_Parsers"/>
+        <Class IRI="#Parsers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#type_Reasoners"/>
+        <Class IRI="#Reasoners"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#type_Storages"/>
+        <Class IRI="#Storages"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Method"/>
+        <DataProperty IRI="#SURL"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#SDescription"/>
+        <DataProperty IRI="#Services"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#SName"/>
+        <DataProperty IRI="#Services"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#SSampleToUse"/>
+        <DataProperty IRI="#Services"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#SURL"/>
+        <DataProperty IRI="#Services"/>
+    </SubDataPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.3.20160319-0906) https://github.com/owlcs/owlapi -->
+
