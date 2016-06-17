@@ -1,0 +1,53 @@
+{
+  "Parser": {
+    "Root": [
+      "http://parser.knowitive.com/parser",
+      "http://parser.knowitive.com/tripleter",
+      "http://parser.knowitive.com/Redefer"
+    ],
+    "Services": [
+      "http://parser.knowitive.com/parser/r/GrammarParse.paragraph/",
+      "http://parser.knowitive.com/parser/r/GrammarParse.sourcedetection/",
+      "http://parser.knowitive.com/tripleter/r/getTriplets/",
+      "http://parser.knowitive.com/Redefer/r/transform/xml2rdf",
+      "http://parser.knowitive.com/Redefer/r/transform/xsd2owl"
+    ]
+  },
+  "Freeling": {
+    "Root": [
+      "http://freeling.knowitive.com/freeling"
+    ],
+    "Services": [
+      "http://freeling.knowitive.com/freeling/r/GrammarParse.analyzetagger/",
+      "http://freeling.knowitive.com/freeling/r/GrammarParse.analyzetaggercolor/"
+    ]
+  },
+  "Storage": {
+    "Root": [
+      "http://storage.knowitive.com/fuseki"
+    ],
+    "Services": [
+      "http://storage.knowitive.com/fuseki/skosmos/query"
+    ]
+  },
+  "QA": {
+    "Root": [
+      "http://qa.knowitive.com:4567"
+    ],
+    "Services": [
+      "http://qa.knowitive.com:4567/q",
+      "http://qa.knowitive.com:4567/q/?answered",
+      "http://qa.knowitive.com:4567/q/?inProgress"
+    ]
+  },
+  "Authentication": {
+    "Root": [
+      "http://storage.knowitive.com/AccessControlServer"
+    ],
+    "Services": [
+      "http://storage.knowitive.com/AccessControlServer/r/accesscontrol/generate/'$user'/'$password'/demoapp/21/1",
+      "http://storage.knowitive.com/AccessControlServer/r/accesscontrol/validate/'$token'",
+      "http://storage.knowitive.com/AccessControlServer/r/accesscontrol/getinfo/'$token'"
+    ]
+  }
+}
