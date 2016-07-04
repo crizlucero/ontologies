@@ -1,0 +1,1561 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Prefix name="" IRI="#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="cfdi" IRI="https://raw.githubusercontent.com/crizlucero/ontologies/master/cfdv32.owl#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>https://raw.githubusercontent.com/crizlucero/ontologies/master/cfdv32.owl</Import>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="cfdi:ExpedidoEn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="cfdi:Domicilio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="cfdi:RegimenFiscal"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="cfdi:t_RFC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="cfdi:Addenda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="cfdi:Concepto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="cfdi:Receptor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="cfdi:Comprobante"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="cfdi:DomicilioFiscal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="cfdi:Traslados"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="cfdi:Traslado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="cfdi:Conceptos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="cfdi:Complemento"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="cfdi:t_Importe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="cfdi:Emisor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="cfdi:Impuestos"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_rfc"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:impuesto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_IVA"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:calle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_pais"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_FolioFiscalOrig"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:municipio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_condicionesDePago"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_impuesto"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:Regimen"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_MontoFolioFiscalOrig"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:tasa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_SerieFolioFiscalOrig"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_ComplementoConcepto"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:noExterior"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_codigoPostal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_formaDePago"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Traslados"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_noInterior"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_certificado"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_municipio"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:LugarExpedicion"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:version"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Impuestos"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_RegimenFiscal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_NumCtaPago"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_InformacionAduanera"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_IEPS"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_version"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:cantidad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_LugarExpedicion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_unidad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_cantidad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_calle"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:nombre"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:descripcion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_CuentaPredial"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_fecha"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Parte"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Domicilio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_numero"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:total"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_tipoDeComprobante"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:fecha"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:rfc"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Receptor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:pais"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_totalImpuestosTrasladados"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_totalImpuestosRetenidos"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_serie"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Traslado"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_descripcion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_estado"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_valorUnitario"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_colonia"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:unidad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_tasa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Retenciones"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:importe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Emisor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:metodoDePago"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_noExterior"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:codigoPostal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_TipoCambio"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:noInterior"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_DomicilioFiscal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_ISR"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_FechaFolioFiscalOrig"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_metodoDePago"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:formaDePago"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:subTotal"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:tipoDeComprobante"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_folio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_localidad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_nombre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Complemento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_referencia"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:valorUnitario"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_noIdentificacion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Retencion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Regimen"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_total"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_ExpedidoEn"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:estado"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_sello"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_noCertificado"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="cfdi:colonia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_descuento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Moneda"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_subTotal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_motivoDescuento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_importe"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="cfdi:Domicilio"/>
+        <Class abbreviatedIRI="cfdi:t_Ubicacion"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="cfdi:DomicilioFiscal"/>
+        <Class abbreviatedIRI="cfdi:t_UbicacionFiscal"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="cfdi:InformacionAduanera"/>
+        <Class abbreviatedIRI="cfdi:t_InformacionAduanera"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="cfdi:importe"/>
+        <Class abbreviatedIRI="cfdi:t_Importe"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="cfdi:rfc"/>
+        <Class abbreviatedIRI="cfdi:t_RFC"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:Addenda"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:Complemento"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:ComplementoConcepto"/>
+        <Class abbreviatedIRI="cfdi:Concepto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:Concepto"/>
+        <Class abbreviatedIRI="cfdi:Conceptos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:Conceptos"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:CuentaPredial"/>
+        <Class abbreviatedIRI="cfdi:Concepto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:Domicilio"/>
+        <Class abbreviatedIRI="cfdi:Receptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:DomicilioFiscal"/>
+        <Class abbreviatedIRI="cfdi:Emisor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:Emisor"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:ExpedidoEn"/>
+        <Class abbreviatedIRI="cfdi:Emisor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:FechaFolioFiscalOrig"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:FolioFiscalOrig"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:IEPS"/>
+        <Class abbreviatedIRI="cfdi:impuesto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:ISR"/>
+        <Class abbreviatedIRI="cfdi:impuesto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:IVA"/>
+        <Class abbreviatedIRI="cfdi:impuesto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:Impuestos"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:InformacionAduanera"/>
+        <Class abbreviatedIRI="cfdi:Concepto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:InformacionAduanera"/>
+        <Class abbreviatedIRI="cfdi:Parte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:LugarExpedicion"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:Moneda"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:MontoFolioFiscalOrig"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:NumCtaPago"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:Parte"/>
+        <Class abbreviatedIRI="cfdi:Concepto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:Receptor"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:RegimenFiscal"/>
+        <Class abbreviatedIRI="cfdi:Emisor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:Retencion"/>
+        <Class abbreviatedIRI="cfdi:Retenciones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:Retenciones"/>
+        <Class abbreviatedIRI="cfdi:Impuestos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:SerieFolioFiscalOrig"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:TipoCambio"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:Traslado"/>
+        <Class abbreviatedIRI="cfdi:Traslados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:Traslados"/>
+        <Class abbreviatedIRI="cfdi:Impuestos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:cantidad"/>
+        <Class abbreviatedIRI="cfdi:Concepto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:cantidad"/>
+        <Class abbreviatedIRI="cfdi:Parte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:certificado"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:condicionesDePago"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:descripcion"/>
+        <Class abbreviatedIRI="cfdi:Concepto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:descuento"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:folio"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:formaDePago"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:importe"/>
+        <Class abbreviatedIRI="cfdi:Concepto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:importe"/>
+        <Class abbreviatedIRI="cfdi:Parte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:metodoDePago"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:motivoDescuento"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:noCertificado"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:noIdentificacion"/>
+        <Class abbreviatedIRI="cfdi:Parte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:nombre"/>
+        <Class abbreviatedIRI="cfdi:Emisor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:nombre"/>
+        <Class abbreviatedIRI="cfdi:Receptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:rfc"/>
+        <Class abbreviatedIRI="cfdi:Emisor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:rfc"/>
+        <Class abbreviatedIRI="cfdi:Receptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:sello"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:serie"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:subTotal"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:tipoDeComprobante"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:total"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:totalImpuestosRetenidos"/>
+        <Class abbreviatedIRI="cfdi:Impuestos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:totalImpuestosTrasladados"/>
+        <Class abbreviatedIRI="cfdi:Impuestos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:unidad"/>
+        <Class abbreviatedIRI="cfdi:Concepto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:valorUnitario"/>
+        <Class abbreviatedIRI="cfdi:Concepto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:valorUnitario"/>
+        <Class abbreviatedIRI="cfdi:Parte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="cfdi:version"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class abbreviatedIRI="cfdi:Addenda"/>
+        <NamedIndividual abbreviatedIRI="cfdi:Addenda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="cfdi:Complemento"/>
+        <NamedIndividual abbreviatedIRI="cfdi:Complemento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+        <NamedIndividual abbreviatedIRI="cfdi:Comprobante"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="cfdi:Concepto"/>
+        <NamedIndividual abbreviatedIRI="cfdi:Concepto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="cfdi:Conceptos"/>
+        <NamedIndividual abbreviatedIRI="cfdi:Conceptos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="cfdi:Domicilio"/>
+        <NamedIndividual abbreviatedIRI="cfdi:Domicilio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="cfdi:DomicilioFiscal"/>
+        <NamedIndividual abbreviatedIRI="cfdi:DomicilioFiscal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="cfdi:Emisor"/>
+        <NamedIndividual abbreviatedIRI="cfdi:Emisor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="cfdi:ExpedidoEn"/>
+        <NamedIndividual abbreviatedIRI="cfdi:ExpedidoEn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="cfdi:Impuestos"/>
+        <NamedIndividual abbreviatedIRI="cfdi:Impuestos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="cfdi:Receptor"/>
+        <NamedIndividual abbreviatedIRI="cfdi:Receptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="cfdi:RegimenFiscal"/>
+        <NamedIndividual abbreviatedIRI="cfdi:RegimenFiscal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="cfdi:Traslado"/>
+        <NamedIndividual abbreviatedIRI="cfdi:Traslado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="cfdi:Traslados"/>
+        <NamedIndividual abbreviatedIRI="cfdi:Traslados"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Complemento"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_ComplementoConcepto"/>
+        <Class abbreviatedIRI="cfdi:Concepto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_CuentaPredial"/>
+        <Class abbreviatedIRI="cfdi:Concepto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Domicilio"/>
+        <Class abbreviatedIRI="cfdi:Receptor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_DomicilioFiscal"/>
+        <Class abbreviatedIRI="cfdi:Emisor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Emisor"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_ExpedidoEn"/>
+        <Class abbreviatedIRI="cfdi:Emisor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_FechaFolioFiscalOrig"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_FolioFiscalOrig"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_IEPS"/>
+        <Class abbreviatedIRI="cfdi:impuesto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_ISR"/>
+        <Class abbreviatedIRI="cfdi:impuesto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_IVA"/>
+        <Class abbreviatedIRI="cfdi:impuesto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Impuestos"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_InformacionAduanera"/>
+        <Class abbreviatedIRI="cfdi:Concepto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_InformacionAduanera"/>
+        <Class abbreviatedIRI="cfdi:Parte"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_LugarExpedicion"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Moneda"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_MontoFolioFiscalOrig"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_NumCtaPago"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Parte"/>
+        <Class abbreviatedIRI="cfdi:Concepto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Receptor"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Regimen"/>
+        <Class abbreviatedIRI="cfdi:RegimenFiscal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_RegimenFiscal"/>
+        <Class abbreviatedIRI="cfdi:Emisor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Retencion"/>
+        <Class abbreviatedIRI="cfdi:Retenciones"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Retenciones"/>
+        <Class abbreviatedIRI="cfdi:Impuestos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_SerieFolioFiscalOrig"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_TipoCambio"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Traslado"/>
+        <Class abbreviatedIRI="cfdi:Traslados"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Traslados"/>
+        <Class abbreviatedIRI="cfdi:Impuestos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_calle"/>
+        <Class abbreviatedIRI="cfdi:t_Ubicacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_calle"/>
+        <Class abbreviatedIRI="cfdi:t_UbicacionFiscal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_cantidad"/>
+        <Class abbreviatedIRI="cfdi:Concepto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_cantidad"/>
+        <Class abbreviatedIRI="cfdi:Parte"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_certificado"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_codigoPostal"/>
+        <Class abbreviatedIRI="cfdi:t_Ubicacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_codigoPostal"/>
+        <Class abbreviatedIRI="cfdi:t_UbicacionFiscal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_colonia"/>
+        <Class abbreviatedIRI="cfdi:t_Ubicacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_colonia"/>
+        <Class abbreviatedIRI="cfdi:t_UbicacionFiscal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_condicionesDePago"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_descripcion"/>
+        <Class abbreviatedIRI="cfdi:Concepto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_descuento"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_estado"/>
+        <Class abbreviatedIRI="cfdi:t_Ubicacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_estado"/>
+        <Class abbreviatedIRI="cfdi:t_UbicacionFiscal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_fecha"/>
+        <Class abbreviatedIRI="cfdi:t_InformacionAduanera"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_folio"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_formaDePago"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_importe"/>
+        <Class abbreviatedIRI="cfdi:Concepto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_importe"/>
+        <Class abbreviatedIRI="cfdi:Parte"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_importe"/>
+        <Class abbreviatedIRI="cfdi:Retencion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_importe"/>
+        <Class abbreviatedIRI="cfdi:Traslado"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_impuesto"/>
+        <Class abbreviatedIRI="cfdi:Retencion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_impuesto"/>
+        <Class abbreviatedIRI="cfdi:Traslado"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_localidad"/>
+        <Class abbreviatedIRI="cfdi:t_Ubicacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_localidad"/>
+        <Class abbreviatedIRI="cfdi:t_UbicacionFiscal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_metodoDePago"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_motivoDescuento"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_municipio"/>
+        <Class abbreviatedIRI="cfdi:t_Ubicacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_municipio"/>
+        <Class abbreviatedIRI="cfdi:t_UbicacionFiscal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_noCertificado"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_noExterior"/>
+        <Class abbreviatedIRI="cfdi:t_Ubicacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_noExterior"/>
+        <Class abbreviatedIRI="cfdi:t_UbicacionFiscal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_noIdentificacion"/>
+        <Class abbreviatedIRI="cfdi:Parte"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_noInterior"/>
+        <Class abbreviatedIRI="cfdi:t_Ubicacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_noInterior"/>
+        <Class abbreviatedIRI="cfdi:t_UbicacionFiscal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_nombre"/>
+        <Class abbreviatedIRI="cfdi:Emisor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_nombre"/>
+        <Class abbreviatedIRI="cfdi:Receptor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_numero"/>
+        <Class abbreviatedIRI="cfdi:CuentaPredial"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_numero"/>
+        <Class abbreviatedIRI="cfdi:t_InformacionAduanera"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_pais"/>
+        <Class abbreviatedIRI="cfdi:t_Ubicacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_pais"/>
+        <Class abbreviatedIRI="cfdi:t_UbicacionFiscal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_referencia"/>
+        <Class abbreviatedIRI="cfdi:t_Ubicacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_referencia"/>
+        <Class abbreviatedIRI="cfdi:t_UbicacionFiscal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_rfc"/>
+        <Class abbreviatedIRI="cfdi:Emisor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_rfc"/>
+        <Class abbreviatedIRI="cfdi:Receptor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_sello"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_serie"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_subTotal"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_tasa"/>
+        <Class abbreviatedIRI="cfdi:Traslado"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_tipoDeComprobante"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_total"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_totalImpuestosRetenidos"/>
+        <Class abbreviatedIRI="cfdi:Impuestos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_totalImpuestosTrasladados"/>
+        <Class abbreviatedIRI="cfdi:Impuestos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_unidad"/>
+        <Class abbreviatedIRI="cfdi:Concepto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_valorUnitario"/>
+        <Class abbreviatedIRI="cfdi:Concepto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_valorUnitario"/>
+        <Class abbreviatedIRI="cfdi:Parte"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_version"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="cfdi:has_Addenda"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="cfdi:has_Concepto"/>
+        <Class abbreviatedIRI="cfdi:Conceptos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="cfdi:has_Conceptos"/>
+        <Class abbreviatedIRI="cfdi:Comprobante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="cfdi:has_aduana"/>
+        <Class abbreviatedIRI="cfdi:t_InformacionAduanera"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Complemento"/>
+        <Class abbreviatedIRI="cfdi:Complemento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_ComplementoConcepto"/>
+        <Class abbreviatedIRI="cfdi:ComplementoConcepto"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_CuentaPredial"/>
+        <Class abbreviatedIRI="cfdi:CuentaPredial"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Domicilio"/>
+        <Class abbreviatedIRI="cfdi:Domicilio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_DomicilioFiscal"/>
+        <Class abbreviatedIRI="cfdi:DomicilioFiscal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Emisor"/>
+        <Class abbreviatedIRI="cfdi:Emisor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_ExpedidoEn"/>
+        <Class abbreviatedIRI="cfdi:ExpedidoEn"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_FechaFolioFiscalOrig"/>
+        <Class abbreviatedIRI="cfdi:FechaFolioFiscalOrig"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_FolioFiscalOrig"/>
+        <Class abbreviatedIRI="cfdi:FolioFiscalOrig"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_IEPS"/>
+        <Class abbreviatedIRI="cfdi:IEPS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_ISR"/>
+        <Class abbreviatedIRI="cfdi:ISR"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_IVA"/>
+        <Class abbreviatedIRI="cfdi:IVA"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Impuestos"/>
+        <Class abbreviatedIRI="cfdi:Impuestos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_InformacionAduanera"/>
+        <Class abbreviatedIRI="cfdi:InformacionAduanera"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_LugarExpedicion"/>
+        <Class abbreviatedIRI="cfdi:LugarExpedicion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Moneda"/>
+        <Class abbreviatedIRI="cfdi:Moneda"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_MontoFolioFiscalOrig"/>
+        <Class abbreviatedIRI="cfdi:MontoFolioFiscalOrig"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_NumCtaPago"/>
+        <Class abbreviatedIRI="cfdi:NumCtaPago"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Parte"/>
+        <Class abbreviatedIRI="cfdi:Parte"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Receptor"/>
+        <Class abbreviatedIRI="cfdi:Receptor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Regimen"/>
+        <Class abbreviatedIRI="cfdi:Regimen"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_RegimenFiscal"/>
+        <Class abbreviatedIRI="cfdi:RegimenFiscal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Retencion"/>
+        <Class abbreviatedIRI="cfdi:Retencion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Retenciones"/>
+        <Class abbreviatedIRI="cfdi:Retenciones"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_SerieFolioFiscalOrig"/>
+        <Class abbreviatedIRI="cfdi:SerieFolioFiscalOrig"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_TipoCambio"/>
+        <Class abbreviatedIRI="cfdi:TipoCambio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Traslado"/>
+        <Class abbreviatedIRI="cfdi:Traslado"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_Traslados"/>
+        <Class abbreviatedIRI="cfdi:Traslados"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_calle"/>
+        <Class abbreviatedIRI="cfdi:calle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_cantidad"/>
+        <Class abbreviatedIRI="cfdi:cantidad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_certificado"/>
+        <Class abbreviatedIRI="cfdi:certificado"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_codigoPostal"/>
+        <Class abbreviatedIRI="cfdi:codigoPostal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_colonia"/>
+        <Class abbreviatedIRI="cfdi:colonia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_condicionesDePago"/>
+        <Class abbreviatedIRI="cfdi:condicionesDePago"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_descripcion"/>
+        <Class abbreviatedIRI="cfdi:descripcion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_descuento"/>
+        <Class abbreviatedIRI="cfdi:descuento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_estado"/>
+        <Class abbreviatedIRI="cfdi:estado"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_fecha"/>
+        <Class abbreviatedIRI="cfdi:fecha"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_folio"/>
+        <Class abbreviatedIRI="cfdi:folio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_formaDePago"/>
+        <Class abbreviatedIRI="cfdi:formaDePago"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_importe"/>
+        <Class abbreviatedIRI="cfdi:importe"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_impuesto"/>
+        <Class abbreviatedIRI="cfdi:impuesto"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_localidad"/>
+        <Class abbreviatedIRI="cfdi:localidad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_metodoDePago"/>
+        <Class abbreviatedIRI="cfdi:metodoDePago"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_motivoDescuento"/>
+        <Class abbreviatedIRI="cfdi:motivoDescuento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_municipio"/>
+        <Class abbreviatedIRI="cfdi:municipio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_noCertificado"/>
+        <Class abbreviatedIRI="cfdi:noCertificado"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_noExterior"/>
+        <Class abbreviatedIRI="cfdi:noExterior"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_noIdentificacion"/>
+        <Class abbreviatedIRI="cfdi:noIdentificacion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_noInterior"/>
+        <Class abbreviatedIRI="cfdi:noInterior"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_nombre"/>
+        <Class abbreviatedIRI="cfdi:nombre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_numero"/>
+        <Class abbreviatedIRI="cfdi:numero"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_pais"/>
+        <Class abbreviatedIRI="cfdi:pais"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_referencia"/>
+        <Class abbreviatedIRI="cfdi:referencia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_rfc"/>
+        <Class abbreviatedIRI="cfdi:rfc"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_sello"/>
+        <Class abbreviatedIRI="cfdi:sello"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_serie"/>
+        <Class abbreviatedIRI="cfdi:serie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_subTotal"/>
+        <Class abbreviatedIRI="cfdi:subTotal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_tasa"/>
+        <Class abbreviatedIRI="cfdi:tasa"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_tipoDeComprobante"/>
+        <Class abbreviatedIRI="cfdi:tipoDeComprobante"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_total"/>
+        <Class abbreviatedIRI="cfdi:total"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_totalImpuestosRetenidos"/>
+        <Class abbreviatedIRI="cfdi:totalImpuestosRetenidos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_totalImpuestosTrasladados"/>
+        <Class abbreviatedIRI="cfdi:totalImpuestosTrasladados"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_unidad"/>
+        <Class abbreviatedIRI="cfdi:unidad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_valorUnitario"/>
+        <Class abbreviatedIRI="cfdi:valorUnitario"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://192.168.50.39/cfdv32.owl#has_version"/>
+        <Class abbreviatedIRI="cfdi:version"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="cfdi:has_Addenda"/>
+        <Class abbreviatedIRI="cfdi:Addenda"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="cfdi:has_Concepto"/>
+        <Class abbreviatedIRI="cfdi:Concepto"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="cfdi:has_Conceptos"/>
+        <Class abbreviatedIRI="cfdi:Conceptos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="cfdi:has_aduana"/>
+        <Class abbreviatedIRI="cfdi:aduana"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:LugarExpedicion"/>
+        <AbbreviatedIRI>cfdi:Comprobante</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">M�xico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:fecha"/>
+        <AbbreviatedIRI>cfdi:Comprobante</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2012-01-01T20:38:12</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:formaDePago"/>
+        <AbbreviatedIRI>cfdi:Comprobante</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PAGO EN UNA SOLA EXHIBICION</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:metodoDePago"/>
+        <AbbreviatedIRI>cfdi:Comprobante</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">cheque</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:subTotal"/>
+        <AbbreviatedIRI>cfdi:Comprobante</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">488.50</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:tipoDeComprobante"/>
+        <AbbreviatedIRI>cfdi:Comprobante</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ingreso</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:total"/>
+        <AbbreviatedIRI>cfdi:Comprobante</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">488.50</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:version"/>
+        <AbbreviatedIRI>cfdi:Comprobante</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">3.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:cantidad"/>
+        <AbbreviatedIRI>cfdi:Concepto</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">1.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:descripcion"/>
+        <AbbreviatedIRI>cfdi:Concepto</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CLORUTO 500M</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:descripcion"/>
+        <AbbreviatedIRI>cfdi:Concepto</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SEDEPRON 250MG 10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:descripcion"/>
+        <AbbreviatedIRI>cfdi:Concepto</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">VIBRAMICINA 100MG 10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:importe"/>
+        <AbbreviatedIRI>cfdi:Concepto</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">137.93</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:importe"/>
+        <AbbreviatedIRI>cfdi:Concepto</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">244.00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:importe"/>
+        <AbbreviatedIRI>cfdi:Concepto</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">84.50</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:unidad"/>
+        <AbbreviatedIRI>cfdi:Concepto</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">BOTELLA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:unidad"/>
+        <AbbreviatedIRI>cfdi:Concepto</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CAPSULAS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:unidad"/>
+        <AbbreviatedIRI>cfdi:Concepto</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">TABLETAS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:valorUnitario"/>
+        <AbbreviatedIRI>cfdi:Concepto</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">137.93</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:valorUnitario"/>
+        <AbbreviatedIRI>cfdi:Concepto</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">244.00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:valorUnitario"/>
+        <AbbreviatedIRI>cfdi:Concepto</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">84.50</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:calle"/>
+        <AbbreviatedIRI>cfdi:Domicilio</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">AV UNIVERSIDAD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:codigoPostal"/>
+        <AbbreviatedIRI>cfdi:Domicilio</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">04360</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:colonia"/>
+        <AbbreviatedIRI>cfdi:Domicilio</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">COPILCO UNIVERSIDAD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:estado"/>
+        <AbbreviatedIRI>cfdi:Domicilio</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DISTRITO FEDERAL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:municipio"/>
+        <AbbreviatedIRI>cfdi:Domicilio</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">COYOACAN</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:noExterior"/>
+        <AbbreviatedIRI>cfdi:Domicilio</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">16 EDF 3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:noInterior"/>
+        <AbbreviatedIRI>cfdi:Domicilio</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DPTO 101</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:pais"/>
+        <AbbreviatedIRI>cfdi:Domicilio</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Mexico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:calle"/>
+        <AbbreviatedIRI>cfdi:DomicilioFiscal</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">AV. RIO MIXCOAC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:codigoPostal"/>
+        <AbbreviatedIRI>cfdi:DomicilioFiscal</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">03240</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:colonia"/>
+        <AbbreviatedIRI>cfdi:DomicilioFiscal</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ACACIAS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:estado"/>
+        <AbbreviatedIRI>cfdi:DomicilioFiscal</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MEXICO, D.F.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:municipio"/>
+        <AbbreviatedIRI>cfdi:DomicilioFiscal</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">BENITO JUAREZ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:noExterior"/>
+        <AbbreviatedIRI>cfdi:DomicilioFiscal</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">No. 140</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:pais"/>
+        <AbbreviatedIRI>cfdi:DomicilioFiscal</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Mexico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:nombre"/>
+        <AbbreviatedIRI>cfdi:Emisor</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PHARMA PLUS SA DE CV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:rfc"/>
+        <AbbreviatedIRI>cfdi:Emisor</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PPL961114GZ1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:calle"/>
+        <AbbreviatedIRI>cfdi:ExpedidoEn</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">AV. UNIVERSIDAD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:codigoPostal"/>
+        <AbbreviatedIRI>cfdi:ExpedidoEn</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">03910</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:colonia"/>
+        <AbbreviatedIRI>cfdi:ExpedidoEn</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">OXTOPULCO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:estado"/>
+        <AbbreviatedIRI>cfdi:ExpedidoEn</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DISTRITO FEDERAL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:noExterior"/>
+        <AbbreviatedIRI>cfdi:ExpedidoEn</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">1858</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:pais"/>
+        <AbbreviatedIRI>cfdi:ExpedidoEn</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Mexico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:nombre"/>
+        <AbbreviatedIRI>cfdi:Receptor</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">JUAN PEREZ PEREZ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:rfc"/>
+        <AbbreviatedIRI>cfdi:Receptor</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PEPJ8001019Q8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:Regimen"/>
+        <AbbreviatedIRI>cfdi:RegimenFiscal</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">simplificado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:importe"/>
+        <AbbreviatedIRI>cfdi:Traslado</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">0.00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:importe"/>
+        <AbbreviatedIRI>cfdi:Traslado</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">22.07</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:impuesto"/>
+        <AbbreviatedIRI>cfdi:Traslado</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">IVA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:tasa"/>
+        <AbbreviatedIRI>cfdi:Traslado</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">0.00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cfdi:tasa"/>
+        <AbbreviatedIRI>cfdi:Traslado</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">16.00</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.3.20160319-0906) https://github.com/owlcs/owlapi -->
+
